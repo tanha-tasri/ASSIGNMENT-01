@@ -155,8 +155,8 @@ nav .menu a{
 }
 
 #structure .structure-container{
-    width: 66%;
     max-width: 1360px;
+    padding: 0 120px;
     margin: 0 auto;
    text-align: center;
   
@@ -168,35 +168,64 @@ nav .menu a{
     color: #001931;
     margin-bottom: 16px;
     margin-top: 50px;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
 }
 
 #structure .structure-container .heading  .heading-container{
-    margin-bottom: 44px;
+    /* margin-bottom: 44px; */
     font-size: 16px;
-    background-color: #FFFFFF;
     color: #627382;
    
 }
 
-.box {
-    margin-top: 44px;
+.box-section .box { 
     display: flex;
-    gap: 24px;
+    gap: 16px;
+    padding: 44px 120px 120px 120px;
     
 }
 
 .box .card{
     padding: 24px;
-    border: 1px solid red;
+    margin: 0 auto;
+    box-shadow: 0 0 8px 0 #00000012;
     max-width: 322px;
+    height: 300px;
     border-radius: 8px;
+    text-align: center;
     
 }
 
 .box .card img{
     max-width: 60px;
-    padding: 2.5px 2.5px 0.5px;
+    padding: 10px 10px ;
     background-color: #F95555;
     border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.box .card h3{
+    max-width: 274px;
+    font-size: 24px;
+    font-weight:500px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.box .card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+#solution .container{
+    max-width: 1360px;
+    display: flex;
+    padding: 0 120px 120px 120px;
+    gap: 60px;
+}
+
+#solution .container .image{
+    max-width: 600px;
+    border-radius: 12px;
 }
