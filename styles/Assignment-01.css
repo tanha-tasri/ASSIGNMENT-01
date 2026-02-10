@@ -22,11 +22,14 @@ nav .btn .btn{
     padding: 12.5px 16px;
     border-radius: 4px;
     font-size: 16px;
-    font-weight: 600px;
+    font-weight: 600;
     color: #FFFFFF;
     align-items: center;
 }
-
+nav .btn:hover{
+    background-color: #55a374;
+    filter: drop-shadow(0 0 10px #fffeff);
+}
 nav{
     width: 66%;
     max-width: 1057px;
@@ -76,6 +79,17 @@ nav .menu a{
     text-align: center;
     
 }
+.status-circle {
+    width: 12px;
+    height: 12px;
+    background-color: #30B868; 
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(48, 184, 104, 0.4); 
+    display: inline-block;
+    margin-right: 10px;
+    
+
+}
 
 .banner-container .btn3{
     font-size: 16px;
@@ -85,6 +99,9 @@ nav .menu a{
     margin-bottom: 16px;
     background-color: #FFFFFF;
     border: none;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
 }
 .banner-container h1{
     font-size: 72px;
@@ -115,13 +132,20 @@ nav .menu a{
     border-radius: 4px;
     border: none;
 }
-
+.btn1:hover{
+    background-color: #55a374;
+    filter: drop-shadow(0 0 10px #fffeff);
+    border: none;
+}
 .btn2{
     background-color: transparent;
     border: 1px solid white;
     box-sizing: border-box;
 }
-
+.btn2:hover{
+    filter: drop-shadow(0 0 10px #fffeff);
+    border: none;
+}
 #structure .structure-container{
     max-width: 1360px;
     padding: 0 120px;
@@ -264,7 +288,7 @@ nav .menu a{
     color: #627382;
     margin-bottom: 24px;
 }
-.hone-container button{
+.hone-container .home-button{
     font-size: 16px;
     color: #FFFFFF;
     padding: 16px;
@@ -275,7 +299,16 @@ nav .menu a{
     height: 52px;
     margin-bottom: 16px;
 }
-
+.home-button:hover{
+    background-color: #55a374;
+    filter: drop-shadow(0 0 10px #fffeff);
+    border: none;
+}
+.btn3:hover{
+    background-color: #eef6f1;
+    filter: drop-shadow(0 0 10px #fffeff);
+    border: none;
+}
 .hone-container.paragraph2{
     font-size: 16px;
     color: #627382;
